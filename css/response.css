@@ -268,6 +268,8 @@
     height: 170px;
   }
   #section04 .community .communityList li a i {
+    top: 10px;
+    right: 10px;
     font-size: 1rem;
   }
   #footer .container .inner address {
