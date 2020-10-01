@@ -265,7 +265,10 @@
   }
   #section04 .community .communityList li a .imgBox img {
     width: 100%;
-    height: 110px;
+    height: 170px;
+  }
+  #section04 .community .communityList li a i {
+    font-size: 1rem;
   }
   #footer .container .inner address {
     float: none;
