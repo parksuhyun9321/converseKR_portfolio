@@ -73,9 +73,21 @@
                     top: 15px;
                     left: 15px;                    
                     z-index: 2;
+                    &.on {
+                        color: #b73737;
+                        i {
+                            &:last-child {
+                                opacity: 1;
+                            }
+                        }
+                    }
                     i {
+                        position: absolute;
                         font-size: 2rem;
                         transition: 0.25s ease;
+                        &:last-child {
+                            opacity: 0;
+                        }
                     }
                     cursor: pointer;
                     &:hover {
@@ -385,9 +397,21 @@
                     top: 15px;
                     left: 15px;                    
                     z-index: 2;
+                    &.on {
+                        color: #b73737;
+                        i {
+                            &:last-child {
+                                opacity: 1;
+                            }
+                        }
+                    }
                     i {
+                        position: absolute;
                         font-size: 2rem;
                         transition: 0.25s ease;
+                        &:last-child {
+                            opacity: 0;
+                        }
                     }
                     cursor: pointer;
                     &:hover {
