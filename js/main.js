@@ -71,4 +71,10 @@ if(ratio >= 2 && $(window).width()+17 <= 1500) {
 
 // #sideBar
 
+$(".btnWish").on("click",function(){
+    $(this).toggleClass("on");
+    return false
+});
+// .btnWith
+
 
