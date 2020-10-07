@@ -88,9 +88,22 @@
   cursor: pointer;
 }
 
+#section01 .contents li a .btnWish.on {
+  color: #b73737;
+}
+
+#section01 .contents li a .btnWish.on i:last-child {
+  opacity: 1;
+}
+
 #section01 .contents li a .btnWish i {
+  position: absolute;
   font-size: 2rem;
   transition: 0.25s ease;
+}
+
+#section01 .contents li a .btnWish i:last-child {
+  opacity: 0;
 }
 
 #section01 .contents li a .btnWish:hover i {
@@ -409,9 +422,22 @@
   cursor: pointer;
 }
 
+#section03 .box02 ul li .btnWish.on {
+  color: #b73737;
+}
+
+#section03 .box02 ul li .btnWish.on i:last-child {
+  opacity: 1;
+}
+
 #section03 .box02 ul li .btnWish i {
+  position: absolute;
   font-size: 2rem;
   transition: 0.25s ease;
+}
+
+#section03 .box02 ul li .btnWish i:last-child {
+  opacity: 0;
 }
 
 #section03 .box02 ul li .btnWish:hover i {
