@@ -33,6 +33,7 @@
 #section01 .contents li:first-child video {
   object-fit: cover;
   height: 900px;
+  vertical-align: top;
 }
 
 #section01 .contents li:first-child dl {
