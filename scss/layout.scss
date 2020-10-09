@@ -584,6 +584,9 @@ body {
                                 font-size: 1.4rem;
                                 font-weight: 700;
                             }
+                            &::-webkit-search-cancel-button {
+                                display: none;
+                            }   
                         }
                         .searchBtn {
                             position: absolute;
