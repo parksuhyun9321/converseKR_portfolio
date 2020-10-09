@@ -642,6 +642,10 @@ body.searchHidden .searchBox {
   font-weight: 700;
 }
 
+.searchBox .container .inner .right .searchCon .contentsBox input::-webkit-search-cancel-button {
+  display: none; 
+}
+
 .searchBox .container .inner .right .searchCon .contentsBox .searchBtn {
   position: absolute;
   display: inline-block;
