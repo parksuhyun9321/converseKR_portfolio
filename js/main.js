@@ -10,7 +10,7 @@ setInterval(function(){
     });
 }, 3000);
 
-//  #headerSlide 
+//  #headerSlide (오픈소스)
 
 $(window).on("scroll",function(){
     if ($("#header").scrollTop() < $(window).scrollTop()){
