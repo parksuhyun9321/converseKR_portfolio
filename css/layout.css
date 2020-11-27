@@ -623,13 +623,12 @@ body.searchHidden .searchBox {
 
 .searchBox .container .inner .right .searchCon .contentsBox {
   position: relative;
-  width: 80%;
   margin-left: 30px;
   color: #000;
 }
 
 .searchBox .container .inner .right .searchCon .contentsBox input {
-  width: 100%;
+  width: 80%;
   border: none;
   outline: none;
   border-bottom: 1px solid #999;
@@ -643,7 +642,7 @@ body.searchHidden .searchBox {
 }
 
 .searchBox .container .inner .right .searchCon .contentsBox input::-webkit-search-cancel-button {
-  display: none; 
+  display: none;
 }
 
 .searchBox .container .inner .right .searchCon .contentsBox .searchBtn {
